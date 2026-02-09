@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Yes No App',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme().theme(),
+      theme: AppTheme(selectedColor: 3).theme(),
       home: Scaffold(
         appBar: AppBar(title: const Text('Yes No App')),
         body: const Center(child: Text('Hello, World!')),
